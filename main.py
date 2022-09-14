@@ -1,7 +1,7 @@
 import config
 import telebot
 
-bot = telebot.TeleBot(config.token)
+bot = telebot.TeleBot('5737567559:AAGeSHNwFO0OINui86J3tqig2zaBDwq7GiE')
 #Присваивание токена
 
 @bot.message_handler(content_types=["text"])
